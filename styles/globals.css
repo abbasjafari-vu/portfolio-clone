@@ -19,7 +19,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    @apply font-dana;
+    @apply font-iransans;
 }
 
 html {
