@@ -1,6 +1,3 @@
-@import "../public/fonts/dana/dana.css";
-@import "../public/fonts/peyda/peyda.css";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
