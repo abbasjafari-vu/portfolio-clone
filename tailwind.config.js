@@ -15,6 +15,7 @@ module.exports = {
             },
             fontFamily: {
                 peyda: ["peyda"],
+                dana: ["dana"],
             },
             transitionProperty: {
                 width: "width",
