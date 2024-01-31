@@ -37,43 +37,43 @@ import {
 export const menus: MenuData[] = [
     {
         id: 1,
-        label: "about",
+        label: "درباره من",
         Icon: FaRegUser,
         Component: About,
     },
     {
         id: 2,
-        label: "resume",
+        label: "رزومه",
         Icon: FaRegListAlt,
         Component: Resume,
     },
     {
         id: 3,
-        label: "works",
+        label: "کارها",
         Icon: FaEye,
         Component: Works,
     },
     {
         id: 4,
-        label: "blog",
+        label: "وبلاگ",
         Icon: FaRegNewspaper,
         Component: DevBlogs,
     },
     {
         id: 5,
-        label: "stats",
+        label: "آمار",
         Icon: MdDashboard,
         Component: Stats,
     },
     {
         id: 6,
-        label: "contact",
+        label: "تماس با من",
         Icon: FiSend,
         Component: Contact,
     },
     {
         id: 7,
-        label: "guest book",
+        label: "نظر مهمان‌ها",
         Icon: MdComputer,
         Component: GuestBook,
     },
@@ -83,81 +83,81 @@ export const socialMedia: SocialMedia[] = [
     {
         id: 1,
         Icon: FaDev,
-        label: "Dev",
+        label: "توسعه دهنده‌گان",
         logoColor: "black",
         mediaUrl: "https://www.dev.to/abbasjafari-vu",
-        info: "Follow me and read my articles on Dev.to",
+        info: "من را دنبال کنید و مقالات من را در Dev.to بخوانید",
     },
     {
         id: 2,
         Icon: FaFacebookF,
-        label: "Facebook",
+        label: "فیسبوک",
         logoColor: "#3b5998",
         mediaUrl: "https://www.facebook.com/abbasjafari.vu",
-        info: "Follow me on Facebook",
+        info: "من را در Facebook دنبال کنید",
     },
     {
         id: 3,
         Icon: AiOutlineGithub,
-        label: "Github",
+        label: "گیت‌هاب",
         logoColor: "#171515",
         mediaUrl: "https://www.github.com/abbasjafari-vu",
-        info: "Star my projects on Github",
+        info: "پروژه های من را در Github ستاره دار کنید",
     },
     {
         id: 4,
         Icon: AiFillLinkedin,
-        label: "Linkedin",
+        label: "لینکدین",
         logoColor: "#0072b1",
         mediaUrl: "https://www.linkedin.com/in/abbasjafari-vu",
-        info: "Let's connect on Linkedin",
+        info: "بیایید در Linkedin وصل شویم",
     },
     {
         id: 5,
         Icon: FaDiscord,
-        label: "Discord",
+        label: "دیسکورد",
         logoColor: "#5865f2",
         mediaUrl: "https://www.discord.com",
-        info: "Let's chat on Discord. My username - abbasjafari_vu",
+        info: "بیایید در Discord چت کنیم. نام کاربری من - abbasjafari_vu",
     },
     {
         id: 6,
         Icon: SiFiverr,
-        label: "Fiverr",
+        label: "فایور",
         logoColor: "#00b22d",
         mediaUrl: "https://www.fiverr.com/m_jafari",
-        info: "Hire me on fiverr as freelancer",
+        info: "من را در Fiverr به عنوان فریلنسر استخدام کنید",
     },
 ];
 
 export const services: ServiceData[] = [
     {
         id: 1,
-        title: "Front-end",
+        title: "فرانت اند",
         Icon: SiNextdotjs,
         description:
-            "Modern and mobile-ready website that will help you reach all of your marketing.",
+            "وب سایت مدرن و آماده برای موبایل که به شما کمک می کند تا به تمام بازاریابی خود برسید.",
     },
     {
         id: 2,
-        title: "Back-end",
+        title: "بک اند",
         Icon: SiNodedotjs,
         description:
-            "Back-end with a NoSQL DB and API written in a standard express router or tRPC.",
+            "بک‌اند با NoSQL DB و API نوشته شده در روتر اکسپرس استاندارد یا tRPC.",
     },
     {
         id: 3,
-        title: "UI/UX design",
+        title: "طراحی UI/UX",
         Icon: SiFigma,
         description:
-            "Modern user Interface trends with a highly professional and unique design.",
+            "گرایش های رابط کاربری مدرن با طراحی بسیار حرفه ای و منحصر به فرد.",
     },
     {
         id: 4,
-        title: "Firebase",
+        title: "فایربیس",
         Icon: SiFirebase,
         description:
-            "Fully functional firebase app with authentication, firestore, storage, etc.",
+            "برنامه Firebase کاملا کاربردی با احراز هویت، فایر استور، ذخیره سازی و غیره.",
     },
 ];
 
@@ -186,23 +186,23 @@ export const clients: ClientData[] = [
 
 export const quoteData: TestimonialData = {
     id: "quote",
-    quote: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-    userName: "Martin Fowler",
-    userProfession: "Software Developer",
+    quote: "هر کسی می تواند کدی بنویسد که کامپیوتر آن را بفهمد. برنامه نویسان خوب کدی را می نویسند که انسان بتواند آن را درک کند.",
+    userName: "مارتین فاولر",
+    userProfession: "توسعه دهنده نرم افزار",
     userImage: { url: "/images/martin.jpg" },
 };
 
 export const statisticsData: StatisticsData[] = [
     {
-        title: "stack",
+        title: "استک",
         info: "MERN or T3",
     },
     {
-        title: "projects",
+        title: "پروژه‌ها",
         info: "70+",
     },
     {
-        title: "clients",
+        title: "مشتریان",
         info: "40+",
     },
 ];
